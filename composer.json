@@ -1,0 +1,21 @@
+{
+    "name": "webweave/floraathome-php-sdk",
+    "description": "Flora@Home rest api sdk",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Sander de Jonge",
+            "email": "sander@web-weave.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flora\\SDK\\": [
+                "src/"
+            ]
+        }
+    }
+}
